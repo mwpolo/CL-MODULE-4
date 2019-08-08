@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = {
-  entry: "./js/app.js",
+  entry: "./js/zadanie02.js",
   output: {
     filename: "out.js",
     path: path.resolve(__dirname, "build")
@@ -26,5 +26,5 @@ module.exports = {
   }
 };
 
---require jsdom-global/register
---reporter ./tests/mocha-reporter.js
+// --require jsdom-global/register
+// --reporter ./tests/mocha-reporter.js
